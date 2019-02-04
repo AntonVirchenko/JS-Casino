@@ -1,0 +1,63 @@
+main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body{
+	background-image: url("../images/bg.png");
+}
+
+.block__line_1,.block__line_2,.block__line_3{
+	border: 1px solid black;
+	width: 135px;
+	height: 320px;
+	overflow: hidden;
+}
+
+.block__button{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+img{
+	width: 100px;
+	height: 100px;
+}
+.text__win{
+ 	color: green;
+ 	font-size: 25px;
+ 	display: flex;
+ 	justify-content: center;
+}
+
+.block__win{
+	position: absolute;
+	width: 405px;
+	height: 106px;
+	border: 2px solid red;
+}
+
+.text__calc_chance{
+	border: 2px solid green;
+}
+
+.block__chance,.block__calc{
+	background-color: pink;
+	cursor: pointer;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: background-color .5s ease-in-out;
+}
+
+.block__chance{
+	border: 1px solid black;
+}
+.text_chance{
+	font-size: 35px;
+}
+
